@@ -11,10 +11,6 @@ This program works inside a **Docker container** on **Linux-based environments**
 ## 🛠 How It Works
 1. The program **waits for 5 minutes** before starting (useful for debugging in containers, commented for now).
 2. It **scans** the folder `/app/data/` for any files ending in `.Z`.
-(Note: currrently docker build adds two files by default:
-# ls
-sample.tar.Z  sample.txt.Z)
-
 4. If a **regular `.Z` file** is found, it **extracts it** and prints its content.
 5. If a **`.tar.Z` file** is found, it **extracts the `.tar` first**, then extracts its contents.
 6. The extracted text is **displayed on the console**.

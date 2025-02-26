@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ZExtractor": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
